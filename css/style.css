@@ -1,0 +1,581 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: aljazera;
+    src: url(Aljazeera.ttf);
+}
+
+body{
+    font-family: aljazera;
+}
+
+.list-ul{
+    list-style: none;
+}
+
+a ,a:hover , a:focus{
+    text-decoration: none;
+}
+
+
+/* button direction */
+.btn_direction{
+    width: 50px;
+    height: 50px;
+    background-color: #14A800;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border: 0px;
+    border-radius: 10px;
+    font-size: 30px;
+    position: absolute;
+    right: 30px;
+    top: 560px;
+    position: fixed;
+    z-index: 10;
+    display: none;
+}
+
+/* <!-- Start header section --> */
+.header-sec{
+    background-image: url(../images/heder/1\ \(2\).jpg);
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-position:  bottom right;
+  min-height: 830px;
+    padding: 0 20px;
+}
+
+.navbar{
+    display: flex;
+}
+
+.brand{
+    flex: 5;
+}
+
+.brand h2 a{
+   color: #14A800;
+   font-weight: 1000;
+   letter-spacing: 1px;
+   font-size: 30px;
+}
+
+.ul-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding-top:10px ;
+}
+
+.ul-nav li a{
+    padding: 0 10px;
+    color: black;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-size: 16.5px;
+}
+
+.des-header{
+    padding: 50px 0;
+}
+
+.des-header h5{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.des-header h3{
+    color:#14A800;
+    font-weight: bold;
+    font-size: 70px;
+    letter-spacing: 1px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.des-header h3 sup{
+    font-size: 20px;
+    margin-left: -10px;
+}
+
+.des-header h4{
+    color:#14A800;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.des-header p{
+    color:black;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px 0;
+    width: 480px;
+    margin-top: 45px;
+}
+
+.des-header button , .form-contact button ,.Speaker-sec button , .lowerform button{
+    color:#fff;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: #14A800;
+    letter-spacing: 1px;
+    padding: 7px 20px;
+    width: 150px;
+    margin-bottom: 40px;
+    margin-top: 23px;
+    transition:all 0.7s;
+}
+
+.des-header button:hover ,.form-contact button:hover , .Speaker-sec button:hover , .lowerform button:hover{
+   color: #14A800;
+   background-color: #fff;
+}
+
+.des-header i{
+   color: #65735B;
+   font-weight: 600;
+   font-size: 45px;
+   margin-top: 65px;
+}
+
+
+.time-header{
+  display: flex;
+  margin: 20px 0;
+}
+
+ .num-head{
+    font-size: 65px;
+    line-height: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    color: #65735B;
+    font-weight: 600;
+}
+
+ .num-head span{
+    font-size: 20px;
+}
+/* <!-- end header section --> */
+
+/* <!-- Start contact section --> */
+.contact-sec{
+    margin: 100px 0;
+    padding: 0 25px;
+}
+
+.desc-contact{
+    padding: 20px;
+}
+
+.desc-contact h3{
+    color: black;
+    font-weight: 600;
+    font-size: 38px;
+    letter-spacing: 1px;
+}
+
+.desc-contact p{
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    color: #65735B;
+    margin-bottom: 80px;
+    margin-top: 30px;
+    font-size: 19px;
+  }
+
+  .form-contact{
+      background-color: #F2F7F2;
+      padding: 20px 25px;
+      color: black;
+      border-radius: 10px;
+  }
+
+  .form-contact h2{
+     font-weight: 600;
+     letter-spacing: 1px;
+     font-size: 38px;
+}
+
+.form-contact h5{
+    font-weight: 600;
+    font-size: 18px;
+    padding: 15px 0;
+    letter-spacing: 1px;
+}
+
+  .form-content label{
+    margin-top: 20px;
+    font-size: 17px;
+    color: #65735B;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+
+.form-contact button , .lowerform button{
+    width: 190px;
+    font-size: 24px;
+}
+
+.lowerform button{
+    margin-left: 39%;
+    margin-top: 40px;
+}
+/* <!-- end contact section --> */
+
+/* <!-- Start Speader section --> */
+.Speaker-sec{
+    padding: 30px 40px;
+    background-color: #eff3ef;
+}
+
+.titil-Speaker h2{
+    color: black;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    font-size: 50px;
+    margin-left: -12px!important;
+}
+
+.item-speaker{
+    margin-bottom: 50px;
+
+}
+
+.item-speaker img{
+    width: 100%;
+    border-radius: 10px;
+}
+/* ******************* */
+.products_images_effect{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: scalex(0);
+    transition:transform 0.5s;
+}
+
+.products_images_effect ul {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+}
+
+.item-speaker:hover .products_images_effect{
+    transform: scalex(1);
+}
+
+.products_images_effect ul li{
+    width: 40px;
+    height: 40px;
+    margin: 0 3px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #14A800;
+    transition: all 0.5s;
+}
+
+.products_images_effect ul li:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 5px #001E00;
+}
+
+.products_images_effect ul li i{
+    font-size: 25px;
+    color: #fff;
+   line-height: 40px;
+} 
+/* ********* */
+
+.item-speaker h3{
+    color: black;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 15px 0;
+    font-size: 25px;
+    position: relative;
+}
+
+.item-speaker h5{
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #65735B;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.Speaker-sec button{
+    width: 210px;
+  margin-left: 50%;
+  transform: translate(-50%,-50%);
+  margin-top: 70px;
+}
+/* <!-- end Speader section --> */
+
+.qustion{
+  padding: 50px 30px;
+}
+
+.content-qustion{
+    min-height: 450px;
+    background-color: #13544E;
+    border-radius: 15px;
+    padding: 20px 15px;
+}
+
+.titil-qustion h2{
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 40px;
+}
+
+.titil-qustion img{
+    width: 100%;
+    margin-top: 90%;
+}
+
+.panel-default {
+    border-color: 0;
+    border: 0;
+}
+
+.panel-default>.panel-heading {
+    color: #fff;
+    background-color: #13544E;
+    border-color:0;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body {
+    border-top: 0;
+}
+
+.panel-group{
+    padding: 25px  0;
+    position: relative;
+}
+
+.panel-collapse{
+    background-color: #13544E;
+    color: rgba(255, 255, 255, 0.904);
+    padding: 10px 20px;
+    font-size: 17px;
+}
+
+.panel-title{
+    margin-top: 15px;
+}
+
+.panel-title a{
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 1.4px;
+}
+
+.panel-body ul{
+    padding: 15px 0;
+}
+
+
+.line{
+    position: absolute;
+    width: 83%;
+    margin-left: 15px;
+    height: 2px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+/* <!-- Start lowersection --> */
+.lowerform{
+    margin: 40px 30px;
+    border-radius: 15px;
+    background-color: #F2F7F2;
+   min-height: 400px;
+}
+
+.lowerform .container{
+    width: 750px;
+    padding: 15px;
+}
+
+.lowerform h2{
+    color: #14A800;
+    font-weight: 600;
+    letter-spacing: 1px;
+   font-size: 45px;
+}
+
+.lowerform input{
+ height: 45px;   
+}
+
+input:focus{
+    box-shadow: 0 0 3px 0px #14A800!important;
+}
+
+/* <!-- end lowerform section --> */
+
+/* <!-- Start footer section --> */
+footer{
+    background-color: #001E00;
+    min-height: 250px;
+    padding: 1px 10px;
+    padding-top: 60px;
+}
+
+footer h3{
+    color: #fff;
+    margin-top: 60px;
+    padding: 25px 15px;
+}
+
+.end-footer{
+    margin: 60px 0;
+}
+
+.end-footer >a{
+   padding-left: 15px;
+}
+
+footer ul{
+   display: flex;
+   padding-left: 8px;
+}
+
+footer ul li{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin: 5px;
+    transition: all 0.5s;
+}
+
+footer ul li:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 5px #14A800;
+}
+
+footer ul li a{
+    padding: 10px;
+    line-height: 40px;
+    color: #fff;
+    font-size: 20px;
+}
+
+footer ul li a:hover{
+   color: #fff;
+}
+
+
+footer .line{
+    width: 95%;
+}
+
+.end-footer{
+    display: flex;
+}
+
+
+
+.end-footer a{
+    width: 50%;
+    color: #fff;
+    font-size: 18px ;
+    letter-spacing: 1px;
+}
+
+footer ul:nth-child(2){
+   width: 50%;
+   padding-left: 35%;
+ }
+
+ .end-footer h5{
+     color: #fff;
+     line-height: 30px;
+ }
+/* <!-- end footer section --> */
+
+
+/* ********************************************************************* */
+@media (min-width:320px) and (max-width:991px){
+    .ul-nav{
+        margin-top: 10px;
+        padding-left: 10px;
+    }
+    .brand h2 a{
+        font-size: 22px;
+    }
+
+    .des-header h5{
+        font-size: 22px;
+    }
+
+    .des-header h3{
+        font-size: 40px;
+        width: 100%;
+        display: block;
+        background-color: #fff;
+        padding: 2px;
+    }
+
+    .des-header h4{
+        color: #fff;
+    }
+
+    .num-head{
+        background-color: #fff;
+        padding:0px 20px;
+        padding-top: 15px;
+        border-radius: 5px;
+    }
+
+    .des-header p{
+        display: none;
+    }
+
+    .titil-qustion img {
+        margin-top: 20px;
+    }
+
+    .lowerform input{
+       width: 400px;
+    }
+
+    .lowerform button{
+        margin-left: 2%;
+        margin-top: 40px;
+    }
+
+    .end-footer{
+        flex-direction: column;
+    }
+
+    footer ul:nth-child(2){
+        width: 100%;
+        padding-left:10%;
+      }
+
+      .end-footer a{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
